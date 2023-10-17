@@ -18,6 +18,9 @@ body {
   justify-content: center;
 }
 
+.form-control {
+  width: 100px !important;
+}
 div > h1 {
   font-size: 80px;
 }

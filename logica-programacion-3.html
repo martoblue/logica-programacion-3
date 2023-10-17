@@ -26,7 +26,8 @@
       <h2>Calcularemos la temperatura según su conversión de Celsius a Fahrenheit y Kelvin</h2>
       <div class="container-fluid">
         <div class="form-group">
-          <input id="inputNum" class="form-control" type="number" placeholder="Ingrese el número a factorializar" oninput="numFactorial(this.value)" onchange="numFactorial(this.value)">
+          <p>Ingrese el número a factorializar</p>
+          <input id="inputNum" class="form-control" type="number" value="0" min="0" oninput="numFactorial(this.value)" onchange="numFactorial(this.value)">
 </p>
           <p>Resultado: <span id="resultado"></span></p>
         </div>
